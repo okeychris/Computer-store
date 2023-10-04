@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style for the header section */
+.main-container { 
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    background-color: black;
+    height: 500px;
+    width: 100%;
+}
+.header-container { 
+    width: 100%;
+}
+.logo {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    color: white;
+}
+.nav-items {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    text-align: right;
+}
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+/*  style for the hero section */
+.hero-container {
+    display: block;
+    width: 90%;
+    margin: 70px auto 0 auto;
+}
+
+ .write-up  {
+    display: inline-block;
+    width: 45%;
+    color: white;
+    margin-left: 20px;
+    margin-right: 50px;
+    vertical-align: top;
+ } 
+
+ .write-up h2 {
+    font-size: 45px;
+    margin-bottom: -10px;
+ }
+
+ .write-up p {
+    margin-bottom: 25px;
+ }
+
+ .write-up a {
+    text-decoration: none;
+    color: #000;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+ }
+.image {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    
+}
+.image img {
+    width: 400px;
+    height: 300px;
+}
+
+/* Style for the intro section One */
+.intro-section {
+    display: block;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    text-align: center;
+}
+
+.intro-section .col-1 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    background-color: aliceblue;
+    padding: 20px 10px;
+    margin-right: -5px;
+}
+
+.intro-section .col-1 img {
+    width: 200px;
+    height: 150px;
+}
+
+.intro-section .col-2 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 20px 10px;
+    text-align: left;
+    height: 150px;
+}
+
+.intro-section .col-2 a {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+/* Start of intro section */
+.intro-section-2 {
+    display: block;
+    width: 80%;
+    margin: 60px auto 0 auto;
+    text-align: center;
+}
+
+.intro-section-2 .col-1 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+    background-color: aliceblue;
+    padding: 20px 10px;
+}
+
+.intro-section-2 .col-1 img {
+    width: 200px;
+    height: 150px;
+}
+
+.intro-section-2 .col-2 {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    border: 1px solid black;
+    padding: 20px 10px;
+    text-align: left;
+    height: 150px;
+    margin-right: -5px;
+}
+
+.intro-section-2 .col-2 a {
+    background-color: pink;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
